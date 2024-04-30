@@ -164,3 +164,17 @@ ul li {
 .demo-btn:hover {
   background-color: #52616b;
 }
+
+@media screen and (max-width: 816px) {
+  .top-container {
+    justify-content: flex-start;
+  }
+
+  .history {
+    width: 100%;
+  }
+
+  .skills-projects {
+    width: 100%;
+  }
+}
